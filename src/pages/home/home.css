@@ -1,3 +1,8 @@
+#home-main {
+  display: grid;
+  gap: 75px;
+}
+
 #profile-card {
   display: flex;
   margin: 90px auto 0 auto;
