@@ -15,7 +15,7 @@ h1, h2, p, a {
 }
 
 @media (max-width: 1250px) {
-  #profile-card, #skills-card {
+  #profile-card, #skills-card, #projects-main {
     width: 88%;
   }
 }
@@ -43,5 +43,15 @@ h1, h2, p, a {
 
   #skills-list li p {
     font-size: 1rem;
+  }
+
+  .img-container::after {
+    opacity: 100%;
+  }
+
+  .project-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
   }
 }
