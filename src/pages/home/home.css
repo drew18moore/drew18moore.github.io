@@ -17,3 +17,50 @@
   width: 100%;
   padding: 25px 50px;
 }
+
+#profile-text h1 {
+  font-size: 3rem;
+}
+
+#profile-text h2 {
+  font-size: 25px;
+}
+
+/* skills card */
+#skills-card {
+  margin: 0 auto;
+  width: 1100px;
+  height: fit-content;
+}
+
+#skills-card h1 {
+  font-size: 2.5rem;
+  padding: 15px 50px;
+}
+
+#skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-position: inside;
+}
+
+#skills-list li {
+  display: flex;
+  border: 1px solid lightgray;
+  border-radius: 12px;
+  font-size: 1.5rem;
+  margin: 10px;
+  padding: 10px 20px;
+  list-style-type: none;
+  width: fit-content;
+}
+
+.skill-img {
+  display: block;
+  height: 1.5rem;
+  align-self: center;
+}
+
+#skills-list li p {
+  margin-left: 10px;
+}
