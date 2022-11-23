@@ -1,0 +1,29 @@
+header {
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  width: 1400px;
+  padding-inline: 32px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#nav-logo {
+  font-size: 20px;
+}
+
+#nav-links {
+  display: flex;
+  gap: 30px;
+  font-size: 20px;
+  list-style-type: none;
+}
