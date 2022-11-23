@@ -27,3 +27,18 @@ a {
   font-size: 20px;
   list-style-type: none;
 }
+
+#nav-socials {
+  width: fit-content;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-social-link {
+  padding: 0;
+}
+
+.nav-social-link img {
+  vertical-align: middle;
+  width: 25px;
+}

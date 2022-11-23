@@ -18,6 +18,14 @@ function Navbar() {
           <li>
             <Link to="/contact">Contact</Link>
           </li>
+          <li id="nav-socials">
+            <a href="https://www.linkedin.com/in/drew18moore/" className="nav-social-link" target={"_blank"}>
+              <img src="logos/linkedin-icon.png" alt="LinkedIn Logo" />
+            </a>
+            <a href="https://github.com/drew18moore" className="nav-social-link" target={"_blank"}>
+              <img src="logos/github-icon.png" alt="GitHub Logo" />
+            </a>
+          </li>
         </ul>
       </nav>
     </header>
