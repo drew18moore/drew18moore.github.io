@@ -14,3 +14,22 @@ body {
 h1, h2, p, a {
   color: #EBDBB2;
 }
+
+@media (max-width: 1250px) {
+  #profile-card {
+    width: 88%;
+  }
+}
+
+
+@media (max-width: 950px) {
+  #profile-card {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #profile-card img {
+    width: 250px;
+    margin: 0 auto;
+  }
+}
