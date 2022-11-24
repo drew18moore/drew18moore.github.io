@@ -1,14 +1,16 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./navbar.css";
 
 function Navbar() {
+  const [isActive, setIsActive] = useState(false)
   return (
     <header>
       <nav>
         <div id="nav-logo">
           <Link to="/">Drew Moore</Link>
         </div>
-        <ul id="nav-links">
+        <ul id="nav-links" className={isActive ? "active" : ""}>
           <li>
             <Link to="/">Home</Link>
           </li>
@@ -27,6 +29,11 @@ function Navbar() {
             </a>
           </li>
         </ul>
+        <div onClick={() => setIsActive(prev => !prev)} id="hamburger" className={isActive ? "active" : ""}>
+          <span className="bar"></span>
+          <span className="bar"></span>
+          <span className="bar"></span>
+        </div>
       </nav>
     </header>
   );
