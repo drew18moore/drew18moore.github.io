@@ -25,10 +25,12 @@
 
 #profile-text h1 {
   font-size: 3rem;
+  color: #98971a;
 }
 
 #profile-text h2 {
   font-size: 25px;
+  color: #d79921;
 }
 
 /* skills card */
@@ -41,6 +43,7 @@
 #skills-card h1 {
   font-size: 2.5rem;
   padding: 15px 50px;
+  color: #D65D0E;
 }
 
 #skills-list {
@@ -51,7 +54,7 @@
 
 #skills-list li {
   display: flex;
-  border: 1px solid lightgray;
+  border: 1px solid #EBDBB2;
   border-radius: 12px;
   font-size: 1.5rem;
   margin: 10px;
@@ -68,4 +71,5 @@
 
 #skills-list li p {
   margin-left: 10px;
+  color: #83a598;
 }
