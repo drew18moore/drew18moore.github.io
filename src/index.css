@@ -15,7 +15,7 @@ h1, h2, p, a {
 }
 
 @media (max-width: 1250px) {
-  #profile-card, #skills-card, #projects-main {
+  #profile-card, #skills-card {
     width: 88% !important;
   }
 }
@@ -84,6 +84,10 @@ h1, h2, p, a {
 
   .img-container::after {
     opacity: 100%;
+  }
+
+  #projects-list {
+    grid-template-columns: auto;
   }
 
   .project-info {

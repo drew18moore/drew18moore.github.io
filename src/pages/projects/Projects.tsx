@@ -22,23 +22,26 @@ function Projects() {
         setProjects(data);
       });
   }, []);
+
   return (
     <main id="projects-main">
-      <h1>Projects</h1>
-      <div id="projects-list">
-        {projects.map((project, index) => {
-          return (
-            <Project
-              img={project.img}
-              name={project.name}
-              description={project.description}
-              technologies={project.technologies}
-              repoURL={project.repoURL}
-              siteURL={project.siteURL}
-              key={index}
-            />
-          );
-        })}
+      <div id="projects-list-container">
+        <h1>Projects</h1>
+        <div id="projects-list">
+          {projects.map((project, index) => {
+            return (
+              <Project
+                img={project.img}
+                name={project.name}
+                description={project.description}
+                technologies={project.technologies}
+                repoURL={project.repoURL}
+                siteURL={project.siteURL}
+                key={index}
+              />
+            );
+          })}
+        </div>
       </div>
     </main>
   );
