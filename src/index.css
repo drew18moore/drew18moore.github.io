@@ -15,7 +15,7 @@ h1, h2, p, a {
 }
 
 @media (max-width: 1250px) {
-  #profile-card, #skills-card, #projects-main, #contact-main {
+  #profile-card, #skills-card, #projects-main {
     width: 88% !important;
   }
 }
