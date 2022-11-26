@@ -1,0 +1,69 @@
+[
+  {
+    "img": "niner-miner-img.png",
+    "name": "Niner Miner",
+    "description": "UNCC online marketplace",
+    "technologies": [
+      "py-logo.png",
+      "flask-logo.png",
+      "sqlalchemy-logo.png",
+      "html-logo.png",
+      "css-logo.png",
+      "js-logo.png",
+      "jquery-logo.png"
+    ],
+    "repoURL": "https://github.com/cmadajski/niner_miner",
+    "siteURL": "https://niner-miner.herokuapp.com/"
+  },
+  {
+    "img": "sudoku-react-img.png",
+    "name": "Sudoku",
+    "description": "A sudoku game built using React",
+    "technologies": [
+      "react-logo.png",
+      "html-logo.png",
+      "css-logo.png",
+      "ts-logo.png"
+    ],
+    "repoURL": "https://github.com/drew18moore/sudoku-react",
+    "siteURL": ""
+  },
+  {
+    "img": "wordle-img.png",
+    "name": "Wordle Clone",
+    "description": "A recreation of the game Wordle",
+    "technologies": [
+      "html-logo.png",
+      "css-logo.png",
+      "js-logo.png"
+    ],
+    "repoURL": "https://github.com/drew18moore/wordle-js",
+    "siteURL": ""
+  },
+  {
+    "img": "sorting-visualizer-img.png",
+    "name": "Sorting Algorithm Visualizer",
+    "description": "A sorting algorithm visualizer built using ReactJS",
+    "technologies": [
+      "react-logo.png",
+      "html-logo.png",
+      "css-logo.png",
+      "js-logo.png"
+    ],
+    "repoURL": "https://github.com/drew18moore/sorting-visualizer-react",
+    "siteURL": ""
+  },
+  {
+    "img": "ngg-img.png",
+    "name": "Next Generation Gaming",
+    "description": "CSGO jailbreak server",
+    "technologies": [
+      "html-logo.png",
+      "css-logo.png",
+      "js-logo.png",
+      "jquery-logo.png"
+    ],
+    "repoURL": "https://github.com/drew18moore/NGG_website",
+    "siteURL": "https://webpages.charlotte.edu/dmoor121/NGG_website/index.html"
+  }
+]
