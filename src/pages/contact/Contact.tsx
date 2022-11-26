@@ -7,7 +7,7 @@ function Contact() {
         <h1>Contact</h1>
         <form
           id="contact-form"
-          action="https://formsubmit.co/drewmoore052@gmail.com"
+          action="e2d9c67452b271646a48787b57ecf961"
           method="POST"
         >
           <input
