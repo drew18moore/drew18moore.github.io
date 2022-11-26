@@ -16,17 +16,17 @@
     "siteURL": "https://niner-miner.herokuapp.com/"
   },
   {
-    "img": "ngg-img.png",
-    "name": "Next Generation Gaming",
-    "description": "CSGO jailbreak server",
+    "img": "sudoku-react-img.png",
+    "name": "Sudoku",
+    "description": "A sudoku game built using React",
     "technologies": [
+      "react-logo.png",
       "html-logo.png",
       "css-logo.png",
-      "js-logo.png",
-      "jquery-logo.png"
+      "ts-logo.png"
     ],
-    "repoURL": "https://github.com/drew18moore/NGG_website",
-    "siteURL": "https://webpages.charlotte.edu/dmoor121/NGG_website/index.html"
+    "repoURL": "https://github.com/drew18moore/sudoku-react",
+    "siteURL": ""
   },
   {
     "img": "wordle-img.png",
@@ -52,5 +52,18 @@
     ],
     "repoURL": "https://github.com/drew18moore/sorting-visualizer-react",
     "siteURL": ""
+  },
+  {
+    "img": "ngg-img.png",
+    "name": "Next Generation Gaming",
+    "description": "CSGO jailbreak server",
+    "technologies": [
+      "html-logo.png",
+      "css-logo.png",
+      "js-logo.png",
+      "jquery-logo.png"
+    ],
+    "repoURL": "https://github.com/drew18moore/NGG_website",
+    "siteURL": "https://webpages.charlotte.edu/dmoor121/NGG_website/index.html"
   }
 ]
