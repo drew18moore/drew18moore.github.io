@@ -38,7 +38,7 @@
       "js-logo.png"
     ],
     "repoURL": "https://github.com/drew18moore/wordle-js",
-    "siteURL": ""
+    "siteURL": "https://wordle-js-seven.vercel.app/"
   },
   {
     "img": "sorting-visualizer-img.png",
