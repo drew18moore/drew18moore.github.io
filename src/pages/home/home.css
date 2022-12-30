@@ -33,6 +33,21 @@
   color: #d79921;
 }
 
+#resume-btn {
+  user-select: none;
+  font-size: 1.5rem;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: #3C3836;
+  color: #458588;
+}
+
+#resume-form {
+  margin: auto 0;
+}
+
 /* skills card */
 #skills-card {
   margin: 0 auto;
