@@ -1,5 +1,21 @@
 [
   {
+    "img": "mern-social-img.png",
+    "name": "MERN Social",
+    "description": "Full stack social media app",
+    "technologies": [
+      "react-logo.png",
+      "js-logo.png",
+      "html-logo.png",
+      "css-logo.png",
+      "nodejs-logo.png",
+      "expressjs-logo.png",
+      "mongodb-logo.png"
+    ],
+    "repoURL": "https://github.com/drew18moore/social-network-MERN",
+    "siteURL": ""
+  },
+  {
     "img": "niner-miner-img.png",
     "name": "Niner Miner",
     "description": "UNCC online marketplace",
