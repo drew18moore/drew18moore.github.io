@@ -22,7 +22,7 @@ function Home() {
           <h2>
             I am a front-end developer with a degree in Computer Science
           </h2>
-          <form id="resume-form" method="get" action="" target="_blank">
+          <form id="resume-form" method="get" action="resume.pdf" target="_blank">
             <button id="resume-btn" type="submit">Resume</button>
           </form>
         </div>
