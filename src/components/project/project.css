@@ -6,7 +6,18 @@
   margin: 10px 0;
 }
 
-.project-info p img {
+.technologies {
+  display: flex;
+  align-items: center;
+}
+
+.technology-imgs {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.technology-imgs img {
   height: 25px;
   vertical-align: middle;
 }
@@ -17,7 +28,7 @@
 }
 
 .project-item p {
-  padding: 0 25px;
+  padding: 0 10px 0 25px;
 }
 
 .project-img {
@@ -54,6 +65,7 @@
   cursor: pointer;
   border: 1px solid white;
   border-radius: 12px;
-  padding: 2px 5px;
+  padding: 5px 10px;
   text-decoration: none;
 }
+

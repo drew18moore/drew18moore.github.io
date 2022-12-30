@@ -1,15 +1,22 @@
-import "./project.css"
+import "./project.css";
 
 type ProjectProps = {
-  img: string,
-  name: string,
-  description: string,
-  technologies: string[],
-  repoURL: string,
-  siteURL: string
-}
+  img: string;
+  name: string;
+  description: string;
+  technologies: string[];
+  repoURL: string;
+  siteURL: string;
+};
 
-const Project = ({ img, name, description, technologies, repoURL, siteURL }: ProjectProps) => {
+const Project = ({
+  img,
+  name,
+  description,
+  technologies,
+  repoURL,
+  siteURL,
+}: ProjectProps) => {
   return (
     <div className="project-item">
       <div className="img-container">
@@ -17,19 +24,37 @@ const Project = ({ img, name, description, technologies, repoURL, siteURL }: Pro
         <div className="project-info">
           <h2>{name}</h2>
           <p>{description}</p>
-          <p>Technologies used:
-            {technologies.map((technology, index) => {
-              return <img src={`logos/${technology}`} alt="technology logo" key={index}/>
-            })}
-          </p>
+          <div className="technologies">
+            <p>Technologies used:</p>
+            <div className="technology-imgs">
+              {technologies.map((technology, index) => {
+                return (
+                  <img
+                    src={`logos/${technology}`}
+                    alt="technology logo"
+                    key={index}
+                  />
+                );
+              })}
+            </div>
+          </div>
+
           <div className="project-links">
-            {repoURL !== "" && <a href={repoURL} target={"_blank"}>View Repo</a>}
-            {siteURL !== "" && <a href={siteURL} target={"_blank"}>Visit Site</a>}
+            {repoURL !== "" && (
+              <a href={repoURL} target={"_blank"}>
+                View Repo
+              </a>
+            )}
+            {siteURL !== "" && (
+              <a href={siteURL} target={"_blank"}>
+                Visit Site
+              </a>
+            )}
           </div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Project
+export default Project;
