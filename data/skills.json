@@ -4,6 +4,10 @@
     "language": "Javascript"
   },
   {
+   "img": "ts-logo.png",
+   "language": "Typescript"
+  },
+  {
     "img": "html-logo.png",
     "language": "HTML"
   },
@@ -13,19 +17,15 @@
   },
   {
     "img": "react-logo.png",
-    "language": "React"
+    "language": "React.js"
+  },
+  {
+    "img": "nodejs-logo.png",
+    "language": "Node.js"
   },
   {
     "img": "py-logo.png",
     "language": "Python"
-  },
-  {
-    "img": "java-logo.png",
-    "language": "Java"
-  },
-  {
-    "img": "cs-logo.png",
-    "language": "C#"
   },
   {
     "img": "flask-logo.png",
@@ -34,10 +34,6 @@
   {
     "img": "sqlalchemy-logo.png",
     "language": "SQLAlchemy"
-  },
-  {
-    "img": "unity-logo.png",
-    "language": "Unity"
   },
   {
     "img": "jquery-logo.png",
