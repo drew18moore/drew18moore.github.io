@@ -12,19 +12,19 @@ function Navbar() {
         </div>
         <ul id="nav-links" className={isActive ? "active" : ""}>
           <li>
-            <Link onClick={() => setIsActive(false)} to="/">Home</Link>
+            <Link className="link-hover-underline" onClick={() => setIsActive(false)} to="/">Home</Link>
           </li>
           <li>
-            <Link onClick={() => setIsActive(false)} to="/projects">Projects</Link>
+            <Link className="link-hover-underline" onClick={() => setIsActive(false)} to="/projects">Projects</Link>
           </li>
           <li>
-            <Link onClick={() => setIsActive(false)} to="/contact">Contact</Link>
+            <Link className="link-hover-underline" onClick={() => setIsActive(false)} to="/contact">Contact</Link>
           </li>
           <li id="nav-socials">
-            <a  onClick={() => setIsActive(false)} href="https://www.linkedin.com/in/drew18moore/" className="nav-social-link" target={"_blank"}>
+            <a onClick={() => setIsActive(false)} href="https://www.linkedin.com/in/drew18moore/" className="nav-social-link" target={"_blank"}>
               <img src="logos/linkedin-icon.png" alt="LinkedIn Logo" />
             </a>
-            <a  onClick={() => setIsActive(false)} href="https://github.com/drew18moore" className="nav-social-link" target={"_blank"}>
+            <a onClick={() => setIsActive(false)} href="https://github.com/drew18moore" className="nav-social-link" target={"_blank"}>
               <img src="logos/github-icon.png" alt="GitHub Logo" />
             </a>
           </li>

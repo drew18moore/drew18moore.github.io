@@ -36,7 +36,7 @@
 }
 
 .technology-imgs img {
-  object-fit:contain;
+  object-fit: contain;
   vertical-align: middle;
   height: 30px;
   width: 30px;
@@ -52,7 +52,7 @@
   user-select: none;
   cursor: pointer;
   /* border: 1px solid white; */
-  background-color: #3C3836;
+  background-color: #3c3836;
   color: #458588;
   border-radius: 12px;
   padding: 0.5rem 1rem;
