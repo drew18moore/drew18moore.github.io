@@ -21,36 +21,32 @@ const Project = ({
     <div className="project-item">
       <div className="img-container">
         <img className="project-img" src={`projects/${img}`} alt={name} />
-        <div className="project-info">
-          <h2>{name}</h2>
-          <p>{description}</p>
-          <div className="technologies">
-            <p>Technologies used:</p>
-            <div className="technology-imgs">
-              {technologies.map((technology, index) => {
-                return (
-                  <img
-                    src={`logos/${technology}`}
-                    alt="technology logo"
-                    key={index}
-                  />
-                );
-              })}
-            </div>
+      </div>
+      <div className="details-container">
+        <h2>{name}</h2>
+        <p className="project-description">{description}</p>
+          <div className="technology-imgs">
+            {technologies.map((technology, index) => {
+              return (
+                <img
+                  src={`logos/${technology}`}
+                  alt="technology logo"
+                  key={index}
+                />
+              );
+            })}
           </div>
-
-          <div className="project-links">
-            {repoURL !== "" && (
-              <a href={repoURL} target={"_blank"}>
-                View Repo
-              </a>
-            )}
-            {siteURL !== "" && (
-              <a href={siteURL} target={"_blank"}>
-                Visit Site
-              </a>
-            )}
-          </div>
+        <div className="project-links">
+          {repoURL !== "" && (
+            <a href={repoURL} target={"_blank"}>
+              View Repo
+            </a>
+          )}
+          {siteURL !== "" && (
+            <a href={siteURL} target={"_blank"}>
+              Visit Site
+            </a>
+          )}
         </div>
       </div>
     </div>

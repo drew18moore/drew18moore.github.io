@@ -32,10 +32,6 @@
     "language": "Flask"
   },
   {
-    "img": "sqlalchemy-logo.png",
-    "language": "SQLAlchemy"
-  },
-  {
     "img": "jquery-logo.png",
     "language": "JQuery"
   },

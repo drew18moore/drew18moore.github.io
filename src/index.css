@@ -20,6 +20,27 @@ h1, h2, p, a {
   }
 }
 
+@media (max-width: 775px) {
+  .project-item {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .technology-imgs {
+    align-self: center;
+  }
+
+  .project-img {
+    width: 100%;
+  }
+
+  .project-links {
+    padding-inline: 15px;
+    gap: 0;
+    justify-content: space-between;
+  }
+}
+
 
 @media (max-width: 950px) {
   #hamburger {
@@ -84,19 +105,5 @@ h1, h2, p, a {
 
   #skills-list li p {
     font-size: 1rem;
-  }
-
-  .img-container::after {
-    opacity: 100%;
-  }
-
-  #projects-list {
-    grid-template-columns: auto;
-  }
-
-  .project-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
   }
 }

@@ -1,71 +1,60 @@
-.project-info {
-  z-index: 1;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  margin: 10px 0;
+.project-item {
+  background-color: #282828;
+  border-radius: 12px;
+  padding: 10px;
+  display: flex;
+  gap: 1rem;
 }
 
-.technologies {
+.img-container {
+  flex: 1;
+}
+
+.project-img {
+  object-fit: cover;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 12px;
+  vertical-align: middle;
+}
+
+.details-container {
+  flex: 2;
   display: flex;
-  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.project-description {
+  font-style: italic;
 }
 
 .technology-imgs {
   display: flex;
-  align-items: center;
-  gap: 5px;
+  gap: 10px;
 }
 
 .technology-imgs img {
-  height: 25px;
+  object-fit:contain;
   vertical-align: middle;
-}
-
-.project-item h2 {
-  font-size: 2rem;
-  padding: 0 25px;
-}
-
-.project-item p {
-  padding: 0 10px 0 25px;
-}
-
-.project-img {
-  border-radius: 12px;
-  width: 100%;
-  vertical-align: middle;
-}
-
-.img-container {
-  border-radius: 12px;
-  position: relative;
-  user-select: none;
-}
-
-.img-container::after {
-  border-radius: 12px;
-  position: absolute;
-  content: '';
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.78));
+  height: 30px;
+  width: 30px;
 }
 
 .project-links {
+  margin-top: 15px;
   display: flex;
-  gap: 25px;
-  margin: 5px 25px;
+  gap: 15px;
 }
 
 .project-links a {
-  font-weight: bold;
+  user-select: none;
   cursor: pointer;
-  border: 1px solid white;
+  /* border: 1px solid white; */
+  background-color: #3C3836;
+  color: #458588;
   border-radius: 12px;
-  padding: 5px 10px;
+  padding: 0.5rem 1rem;
   text-decoration: none;
 }
-
