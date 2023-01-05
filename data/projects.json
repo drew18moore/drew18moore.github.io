@@ -13,7 +13,7 @@
       "mongodb-logo.png"
     ],
     "repoURL": "https://github.com/drew18moore/social-network-MERN",
-    "siteURL": ""
+    "siteURL": "https://social-network-mern.vercel.app/"
   },
   {
     "img": "niner-miner-img.png",
@@ -28,7 +28,7 @@
       "jquery-logo.png"
     ],
     "repoURL": "https://github.com/cmadajski/niner_miner",
-    "siteURL": "https://niner-miner.herokuapp.com/"
+    "siteURL": ""
   },
   {
     "img": "sudoku-react-img.png",
@@ -41,7 +41,7 @@
       "ts-logo.png"
     ],
     "repoURL": "https://github.com/drew18moore/sudoku-react",
-    "siteURL": ""
+    "siteURL": "https://sudoku-react-drew18moore.vercel.app/"
   },
   {
     "img": "wordle-img.png",
