@@ -8,6 +8,10 @@
    "language": "Typescript"
   },
   {
+    "img": "react-logo.png",
+    "language": "React.js"
+  },
+  {
     "img": "html-logo.png",
     "language": "HTML"
   },
@@ -16,24 +20,16 @@
     "language": "CSS"
   },
   {
-    "img": "react-logo.png",
-    "language": "React.js"
-  },
-  {
     "img": "nodejs-logo.png",
     "language": "Node.js"
   },
   {
-    "img": "py-logo.png",
-    "language": "Python"
+    "img": "expressjs-logo.png",
+    "language": "Express.js"
   },
   {
-    "img": "flask-logo.png",
-    "language": "Flask"
-  },
-  {
-    "img": "jquery-logo.png",
-    "language": "JQuery"
+    "img": "mongodb-logo.png",
+    "language": "MongoDB"
   },
   {
     "img": "git-logo.png",

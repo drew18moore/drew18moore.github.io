@@ -16,21 +16,6 @@
     "siteURL": "https://social-network-mern.vercel.app/"
   },
   {
-    "img": "niner-miner-img.png",
-    "name": "Niner Miner",
-    "description": "UNCC online marketplace",
-    "technologies": [
-      "py-logo.png",
-      "flask-logo.png",
-      "html-logo.png",
-      "css-logo.png",
-      "js-logo.png",
-      "jquery-logo.png"
-    ],
-    "repoURL": "https://github.com/cmadajski/niner_miner",
-    "siteURL": ""
-  },
-  {
     "img": "sudoku-react-img.png",
     "name": "Sudoku",
     "description": "A sudoku game built using React",
@@ -42,6 +27,19 @@
     ],
     "repoURL": "https://github.com/drew18moore/sudoku-react",
     "siteURL": "https://sudoku-react-drew18moore.vercel.app/"
+  },
+  {
+    "img": "sorting-visualizer-img.png",
+    "name": "Sorting Algorithm Visualizer",
+    "description": "A sorting algorithm visualizer built using ReactJS",
+    "technologies": [
+      "react-logo.png",
+      "html-logo.png",
+      "css-logo.png",
+      "js-logo.png"
+    ],
+    "repoURL": "https://github.com/drew18moore/sorting-visualizer-react",
+    "siteURL": "https://sorting-visualizer-react-iota.vercel.app/"
   },
   {
     "img": "wordle-img.png",
@@ -56,16 +54,18 @@
     "siteURL": "https://wordle-js-seven.vercel.app/"
   },
   {
-    "img": "sorting-visualizer-img.png",
-    "name": "Sorting Algorithm Visualizer",
-    "description": "A sorting algorithm visualizer built using ReactJS",
+    "img": "niner-miner-img.png",
+    "name": "Niner Miner",
+    "description": "UNCC online marketplace",
     "technologies": [
-      "react-logo.png",
+      "py-logo.png",
+      "flask-logo.png",
       "html-logo.png",
       "css-logo.png",
-      "js-logo.png"
+      "js-logo.png",
+      "jquery-logo.png"
     ],
-    "repoURL": "https://github.com/drew18moore/sorting-visualizer-react",
+    "repoURL": "https://github.com/cmadajski/niner_miner",
     "siteURL": ""
   },
   {
