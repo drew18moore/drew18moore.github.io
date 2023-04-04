@@ -18,7 +18,7 @@ function Home() {
   return (
     <main id="home-main">
       <div id="profile-card">
-        <img src="profile-picture.png" alt="Profile Picture" />
+        <img src="https://avatars.githubusercontent.com/u/37989348?v=4" alt="Profile Picture" />
         <div id="profile-text">
           <h1>Hello There!</h1>
           <h2>I am a front-end developer with a degree in Computer Science</h2>
