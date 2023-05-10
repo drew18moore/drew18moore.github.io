@@ -1,38 +1,50 @@
 [
   {
+    "img": "react-logo.png",
+    "text": "React"
+  },
+  {
     "img": "js-logo.png",
-    "language": "Javascript"
+    "text": "Javascript"
   },
   {
    "img": "ts-logo.png",
-   "language": "Typescript"
-  },
-  {
-    "img": "react-logo.png",
-    "language": "React.js"
+   "text": "Typescript"
   },
   {
     "img": "html-logo.png",
-    "language": "HTML"
+    "text": "HTML"
   },
   {
     "img": "css-logo.png",
-    "language": "CSS"
+    "text": "CSS"
+  },
+  {
+    "img": "tailwind-css-logo.png",
+    "text": "Tailwind CSS"
+  },
+  {
+    "img": "react-query-logo.png",
+    "text": "React Query"
   },
   {
     "img": "nodejs-logo.png",
-    "language": "Node.js"
+    "text": "Node"
   },
   {
     "img": "expressjs-logo.png",
-    "language": "Express.js"
+    "text": "Express"
   },
   {
     "img": "mongodb-logo.png",
-    "language": "MongoDB"
+    "text": "MongoDB"
+  },
+  {
+    "img": "prisma-logo.png",
+    "text": "Prisma"
   },
   {
     "img": "git-logo.png",
-    "language": "Git"
+    "text": "Git"
   }
 ]

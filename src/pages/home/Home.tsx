@@ -3,7 +3,7 @@ import Skill from "../../components/skill/Skill";
 import "./home.css";
 
 function Home() {
-  const [skills, setSkills] = useState<{ img: String; language: String }[]>([]);
+  const [skills, setSkills] = useState<{ img: String; text: String }[]>([]);
 
   useEffect(() => {
     fetch("data/skills.json")
@@ -36,7 +36,7 @@ function Home() {
         <ul id="skills-list">
           {skills.map((skill, index) => {
             return (
-              <Skill img={skill.img} language={skill.language} key={index} />
+              <Skill img={skill.img} language={skill.text} key={index} />
             );
           })}
         </ul>
