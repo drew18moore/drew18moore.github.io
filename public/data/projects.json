@@ -1,5 +1,24 @@
 [
   {
+    "img": "realtime-chat-img.png",
+    "name": "Real-Time Chat",
+    "description": "A real-time direct messaging application",
+    "technologies": [
+      "react-logo.png",
+      "ts-logo.png",
+      "html-logo.png",
+      "tailwind-css-logo.png",
+      "react-query-logo.png",
+      "nodejs-logo.png",
+      "expressjs-logo.png",
+      "prisma-logo.png",
+      "postgresql-logo.png",
+      "socketio-logo.png"
+    ],
+    "repoURL": "https://github.com/drew18moore/realtime-chat",
+    "siteURL": "https://realtime-chat-phi.vercel.app/"
+  },
+  {
     "img": "mern-social-img.png",
     "name": "MERN Social",
     "description": "Full stack social media app",
