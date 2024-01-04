@@ -10,8 +10,16 @@
   flex: 1;
 }
 
-.project-img {
+.project-img-web {
   object-fit: cover;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 12px;
+  vertical-align: middle;
+}
+
+.project-img-mobile {
+  object-fit: contain;
   width: 100%;
   aspect-ratio: 1 / 1;
   border-radius: 12px;

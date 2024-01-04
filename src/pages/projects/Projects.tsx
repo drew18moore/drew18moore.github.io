@@ -7,6 +7,7 @@ function Projects() {
     {
       img: string;
       name: string;
+      type: "web" | "mobile"
       description: string;
       technologies: string[];
       repoURL: string;
@@ -33,6 +34,7 @@ function Projects() {
               <Project
                 img={project.img}
                 name={project.name}
+                type={project.type}
                 description={project.description}
                 technologies={project.technologies}
                 repoURL={project.repoURL}

@@ -3,6 +3,7 @@ import "./project.css";
 type ProjectProps = {
   img: string;
   name: string;
+  type: "web" | "mobile"
   description: string;
   technologies: string[];
   repoURL: string;
@@ -12,6 +13,7 @@ type ProjectProps = {
 const Project = ({
   img,
   name,
+  type,
   description,
   technologies,
   repoURL,
@@ -20,7 +22,7 @@ const Project = ({
   return (
     <div className="project-item">
       <div className="img-container">
-        <img className="project-img" src={`projects/${img}`} alt={name} />
+        <img className={`${type === "web" ? "project-img-web" : "project-img-mobile"}`} src={`projects/${img}`} alt={name} />
       </div>
       <div className="details-container">
         <h2>{name}</h2>

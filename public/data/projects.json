@@ -1,5 +1,23 @@
 [
   {
+    "img": "flashcards-img.png",
+    "name": "Flashcards",
+    "type": "mobile",
+    "description": "Full stack flashcards mobile app for IOS and Android",
+    "technologies": [
+      "react-native-logo.png",
+      "ts-logo.png",
+      "redux-logo.png",
+      "tailwind-css-logo.png",
+      "java-logo.png",
+      "spring-boot-logo.png",
+      "postgresql-logo.png",
+      "docker-logo.png"
+    ],
+    "repoURL": "https://github.com/drew18moore/flashcards-client",
+    "siteURL": ""
+  },
+  {
     "img": "realtime-chat-img.png",
     "name": "Real-Time Chat",
     "description": "A real-time direct messaging application",
