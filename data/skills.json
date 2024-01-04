@@ -4,12 +4,20 @@
     "text": "React"
   },
   {
-    "img": "js-logo.png",
-    "text": "Javascript"
+    "img": "react-native-logo.png",
+    "text": "React Native"
   },
   {
    "img": "ts-logo.png",
    "text": "Typescript"
+  },
+  {
+    "img": "js-logo.png",
+    "text": "Javascript"
+  },
+  {
+    "img": "redux-logo.png",
+    "text": "Redux"
   },
   {
     "img": "html-logo.png",
@@ -36,6 +44,14 @@
     "text": "Express"
   },
   {
+    "img": "java-logo.png",
+    "text": "Java"
+  },
+  {
+    "img": "spring-boot-logo.png",
+    "text": "Spring Boot"
+  },
+  {
     "img": "mongodb-logo.png",
     "text": "MongoDB"
   },
@@ -46,5 +62,9 @@
   {
     "img": "git-logo.png",
     "text": "Git"
+  },
+  {
+    "img": "docker-logo.png",
+    "text": "Docker"
   }
 ]
